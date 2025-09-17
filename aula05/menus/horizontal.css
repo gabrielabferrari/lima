@@ -1,0 +1,20 @@
+ul {
+    list-style: none;/* remove o marcador */
+    margin: 0; /* remove a margem */
+    padding: 0; /* remove o preenchimento */
+    background-color: #690049; /* cor de fundo */
+    overflow: hidden;/* limpa o float */
+}
+li {
+    float: left; /* alinha os itens na horizontal */
+}   
+a {
+    display: block; /* transforma o link em bloco */
+    color: white; /* cor do texto */
+    padding: 14px 20px; /* espaçamento interno */
+    text-decoration: none; /* remove o sublinhado */
+}
+a:hover {
+    background-color: #9c005d; /* cor de fundo ao passar o mouse */
+    color: rgb(255, 0, 204)
+}
