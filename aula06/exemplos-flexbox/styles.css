@@ -1,0 +1,94 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.container-flex {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os itens */
+  background-color: purple;
+  color: white;
+}
+.item-flex {
+  background-color: rgb(255, 54, 168);
+  padding: 20px;
+  text-align: center;
+}
+/*flex-direction */
+.direcao-linha {
+  flex-direction: row; /* padrão */
+}
+
+.direcao-coluna {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap; /* permite quebra de linha */
+}
+
+.nowrap {
+  flex-wrap: nowrap; /* não permite quebra de linha */
+}
+
+/* justify-content */
+.justificar-inicio {
+  justify-content: start; /* alinha ao início */
+}
+
+.justificar-fim {
+  justify-content: end; /* alinha ao fim */
+}
+
+.justificar-centro {
+  justify-content: center; /* alinha ao centro */
+}
+
+.justificar-space-between {
+  justify-content: space-between; /* espaço entre os itens */
+}
+
+.justificar-space-around {
+  justify-content: space-around; /* espaço ao redor dos itens */
+}
+
+.justificar-space-evenly {
+  justify-content: space-evenly; /* espaço igual entre os itens */
+}
+
+.alinhar-items .container-flex {
+  height: 300px; /* altura fixa para demonstração */
+}
+
+.alinhar-stretch {
+  align-items: stretch; /* padrão, estica os itens */
+}
+
+.alinhar-inicio {
+  align-items: start; /* alinha ao início */
+}
+
+.alinhar-fim {
+  align-items: end; /* alinha ao fim */
+}
+
+.alinhar-centro {
+  align-items: center; /* alinha ao centro */
+}
+
+.alinhar-baseline {
+  align-items: baseline; /* alinha pela linha de base do texto */
+}
